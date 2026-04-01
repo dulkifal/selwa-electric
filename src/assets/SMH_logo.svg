@@ -1,0 +1,43 @@
+<svg viewBox="0 0 340 280" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Navy arc gradient for the orbital ring -->
+  </defs>
+
+  <!-- Outer navy ellipse orbit ring (tilted) -->
+  <!-- The ring is an ellipse stroke, tilted about 15 degrees -->
+  <g transform="translate(170,140)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <!-- Navy blue orbit circle - tilted ellipse -->
+    <ellipse cx="0" cy="0" rx="100" ry="42" fill="none" stroke="#1C2E6B" stroke-width="6" stroke-linecap="round" transform="rotate(-18)" style="fill:none;stroke:rgb(28, 46, 107);color:rgb(255, 255, 255);stroke-width:6px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Red arc that overlaps the top-right portion of the orbit -->
+    <!-- We use a path to draw only the red arc segment -->
+    <path d="M 55,-35 A 100,42 -18 0,1 95,12" fill="none" stroke="#C0202E" stroke-width="7" stroke-linecap="round" style="fill:none;stroke:rgb(192, 32, 46);color:rgb(255, 255, 255);stroke-width:7px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- Letter S (red) -->
+  <text x="72" y="173" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="108" fill="#C0202E" letter-spacing="-2" style="fill:rgb(192, 32, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:108px;font-weight:900;text-anchor:start;dominant-baseline:auto">S</text>
+
+  <!-- Letter M (navy blue) -->
+  <text x="143" y="173" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="108" fill="#1C2E6B" letter-spacing="-2" style="fill:rgb(28, 46, 107);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:108px;font-weight:900;text-anchor:start;dominant-baseline:auto">M</text>
+
+  <!-- Letter H (red) -->
+  <text x="238" y="173" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="108" fill="#C0202E" letter-spacing="-2" style="fill:rgb(192, 32, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:108px;font-weight:900;text-anchor:start;dominant-baseline:auto">H</text>
+
+  <!-- White mask over part of orbit ring so it appears behind letters on left and in front on right -->
+  <!-- Left side of orbit should appear BEHIND the letters -->
+  <!-- Right side should appear IN FRONT -->
+  <!-- We simulate depth by covering the left portion with a white rect -->
+  <rect x="60" y="95" width="130" height="100" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Redraw the front-facing arc of the orbit on top (right/front portion) -->
+  <g transform="translate(170,140)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <!-- Front navy arc (bottom right of the ellipse) -->
+    <path d="M 95,12 A 100,42 -18 0,1 55,-35" fill="none" stroke="#1C2E6B" stroke-width="6" stroke-linecap="round" style="fill:none;stroke:rgb(28, 46, 107);color:rgb(255, 255, 255);stroke-width:6px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Front red arc (top right, the accent) -->
+    <path d="M 55,-35 A 100,42 -18 0,1 95,12" fill="none" stroke="#C0202E" stroke-width="7" stroke-linecap="round" style="fill:none;stroke:rgb(192, 32, 46);color:rgb(255, 255, 255);stroke-width:7px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- Redraw letters on top of everything -->
+  <text x="72" y="173" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="108" fill="#C0202E" letter-spacing="-2" style="fill:rgb(192, 32, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:108px;font-weight:900;text-anchor:start;dominant-baseline:auto">S</text>
+  <text x="143" y="173" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="108" fill="#1C2E6B" letter-spacing="-2" style="fill:rgb(28, 46, 107);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:108px;font-weight:900;text-anchor:start;dominant-baseline:auto">M</text>
+  <text x="238" y="173" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="108" fill="#C0202E" letter-spacing="-2" style="fill:rgb(192, 32, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:108px;font-weight:900;text-anchor:start;dominant-baseline:auto">H</text>
+</svg>
