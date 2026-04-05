@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smh-hardware.sa/sitemap.xml
