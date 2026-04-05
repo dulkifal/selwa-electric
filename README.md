@@ -61,7 +61,8 @@ You can use any generic HTTP server such as `http-server` via npm, the Visual St
 
 ## 📞 Contact Details
 
-- **Email**: info@smh-trading.com
+- **Email**: info@smh-hardware.sa
+- **Website**: [https://smh-hardware.sa/](https://smh-hardware.sa/)
 - **Phone**: +966 53 287 7482
 - **WhatsApp**: [Chat directly!](https://wa.me/966532877482)
 - **Address**: Selwa Muhammed Hussain Al Omari Est, Main Commercial District
